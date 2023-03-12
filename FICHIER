@@ -1,0 +1,14 @@
+PROGRAMME exemple_modifie ;
+CONST   nb_colonnes = 0,
+        jour1 = 'lundi';
+VAR     resultat,
+        Somme,
+        indice,
+        nb;
+DEBUT
+    ECRIRE('Entrez un nombre entier: ');
+    LIRE(nb);
+    nb := nb*nb;
+    ECRIRE();
+    ECRIRE('Le carré du nombree est: ', nb);
+FIN
